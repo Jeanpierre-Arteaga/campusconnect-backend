@@ -1,0 +1,33 @@
+# Dependencias (se instalan dentro del contenedor)
+node_modules
+npm-debug.log
+
+# Variables de entorno (se inyectan desde docker-compose)
+.env
+.env.local
+.env.*.local
+
+# Archivos de Git
+.git
+.gitignore
+.gitattributes
+
+# Archivos de desarrollo
+*.log
+*.md
+README.md
+
+# Editores
+.vscode
+.idea
+*.swp
+.DS_Store
+
+# Archivos temporales de tests
+test-db.js
+generar-hash.js
+
+# Archivos de Docker (no necesitan copiarse)
+Dockerfile
+docker-compose.yml
+.dockerignore
